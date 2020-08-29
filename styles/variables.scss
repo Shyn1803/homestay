@@ -1,0 +1,12 @@
+// Reference: https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+
+
+// Grids
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+$grid-gutter-width: 30px;
