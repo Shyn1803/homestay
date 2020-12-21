@@ -1,12 +1,57 @@
 // Reference: https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
 
-
 // Grids
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1280px,
+  xl: 1440px
+);
+
 $container-max-widths: (
   sm: 540px,
   md: 720px,
-  lg: 960px,
-  xl: 1140px
+  lg: 1100px,
+  xl: 1330px
 );
 
 $grid-gutter-width: 30px;
+
+// color
+$background-color: #19181E;
+$white: #FFFFFF;
+$test-description: #EDECEC;
+$font-base-color: #C4C4C4;
+
+$orange-color: #E5A637;
+
+$body-font-size: 16px;
+$body-font-size-lg: $body-font-size + 2px;
+$body-font-size-xl: $body-font-size-lg + 2px;
+$body-font-size-sm: $body-font-size - 2px;
+$body-font-size-xs: $body-font-size-sm - 2px;
+$h1-font-size: 60px;
+$h2-font-size: 48px;
+$h3-font-size: 32px;
+$h4-font-size: 24px;
+$h5-font-size: 20px;
+
+// font-weight
+$font-regular: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+// line-height
+// $line-height-base: 24px;
+$h1-line-height: 76px;
+$h2-line-height: 60px;
+$h3-line-height: 40px;
+$h4-line-height: 32px;
+$h5-line-height: 26px;
+
+$body-line-height-xl: 28px;
+
+// padding-section
+$section-padding-top: 70px;

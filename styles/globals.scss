@@ -1,13 +1,13 @@
-@import "./styles/variables.scss";
-@import '~antd/dist/antd.css';
+@import "./variables.scss";
+@import "~antd/dist/antd.css";
 @import "~bootstrap/scss/bootstrap";
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: $background-color;
 }
 
 a {
@@ -17,4 +17,58 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  line-height: $h1-line-height;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  line-height: $h2-line-height;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  line-height: $h3-line-height;
+}
+
+h4 {
+  font-size: $h4-font-size;
+  line-height: $h4-line-height;
+}
+
+h5 {
+  font-size: $h5-font-size;
+  line-height: $h5-line-height;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.caption-section {
+  font-weight: $font-semi-bold;
+  font-size: 42px;
+  line-height: 56px;
+  color: $white;
+
+  span {
+    color: $orange-color;
+  }
+}
+
+.description-section {
+  font-style: normal;
+  font-weight: $font-semi-bold;
+  font-size: $body-font-size-xl;
+  line-height: $body-line-height-xl;
+  color: $font-base-color;
 }

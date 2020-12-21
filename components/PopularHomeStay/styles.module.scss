@@ -1,0 +1,46 @@
+@import "./styles/variables.scss";
+
+.popularHomeStaySection {
+  padding-top: $section-padding-top;
+
+  :global {
+    .container {
+      position: relative;
+
+      .section-headline-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .line-decorator {
+          position: absolute;
+          top: 28px;
+          width: 200px;
+          height: 3px;
+          left: -200px;
+          background-color: $orange-color;
+        }
+
+        .button-view-more {
+          height: 40px;
+          border-radius: 20px;
+          background-color: $orange-color;
+          padding: 8px 26px;
+          font-weight: 600;
+          font-size: $body-font-size-xl;
+          line-height: $body-line-height-xl;
+          color: $white;
+        }
+      }
+
+      .description-section {
+        margin-top: 15px;
+      }
+
+      .homestay-container {
+        margin-top: 45px;
+      }
+    }
+  }
+}

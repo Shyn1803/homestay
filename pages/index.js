@@ -1,17 +1,9 @@
 import Head from 'next/head';
 import { getData } from '@/utils/global';
 import HomepageBanner from '@/components/HomepageBanner';
+import PopularHomeStay from '@/components/PopularHomeStay';
 
 function HomePage() {
-  const result = getData('/api/hello', {
-    onError: () => ({
-      data: [],
-      status: "FAIL",
-    }),
-
-  });
-
-  console.log('result: ', result);
   return (
     <div>
       <Head>
@@ -19,6 +11,7 @@ function HomePage() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <HomepageBanner />
+      <PopularHomeStay />
     </div>
   );
 }

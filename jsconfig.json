@@ -5,12 +5,15 @@
       "@/components/*": [
         "components/*"
       ],
-      "@/Icons/*": [
-        "public/icons/*"
+      "@/icons/*": [
+        "public/assets/icons/*"
       ],
       "@/utils/*": [
         "utils/*"
-      ]
+      ],
+      "@/assets/*": [
+        "public/assets/*"
+      ],
     }
   }
 }

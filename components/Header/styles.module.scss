@@ -1,0 +1,39 @@
+@import "./styles/variables.scss";
+
+.headerContainer {
+  position: sticky;
+  top: 0;
+
+  :global {
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .menu-wrapper {
+        .navbar-nav {
+          flex-direction: row;
+          font-size: $h4-font-size;
+          line-height: $h4-line-height;
+          font-weight: $font-bold;
+          color: $white;
+
+          .nav-item {
+            a {
+              padding: 24px 20px;
+            }
+
+            & + .nav-item {
+              margin-left: 14px;
+            }
+
+            &:hover a {
+              color: $orange-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
